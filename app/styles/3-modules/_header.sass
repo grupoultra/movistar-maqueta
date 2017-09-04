@@ -1,0 +1,95 @@
+header
+  .subheader
+    padding: .1em
+    padding-bottom: 0
+    background: #00344e
+    position: relative
+    z-index: 11
+    ul
+      display: inline
+      margin: 0
+      padding: 0
+      &.secciones
+        li
+          display: inline-block
+          padding: .7em 1em
+          padding-top: 1em
+          margin-right: .1em
+          font: 1.2em Verdana, Geneva, Arial, Helvetica, sans-serif
+          background-color: #004262
+          a
+            color: #5cd2ed
+          &.sel
+            background-color: #00527a
+            a
+              color: #FFFFFF
+      &.mmo-acces
+        margin-top: 5px
+        margin-right: 15px
+        li
+          display: inline-block
+          a
+            margin-right: .5em
+            &.btn
+              color: #FFFFFF
+              line-height: 1.2em
+              padding: 0 15px
+              border-color: transparent
+              &.ingresa
+                background: -webkit-linear-gradient(#7bb803, #58800e) /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#7bb803, #58800e) /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#7bb803, #58800e) /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#7bb803, #58800e) /* Standard syntax */
+              &.registrate
+                background: -webkit-linear-gradient(#209bbd, #0a567a) /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#209bbd, #0a567a) /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#209bbd, #0a567a) /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#209bbd, #0a567a) /* Standard syntax */
+            &.ya-descubriste
+              color: #5cd2ed
+              font-size: 1.3em
+              margin-top: .2em
+  .main-nav
+    ul
+      margin-top: 5em
+      color: #FFFFFF
+      li
+        a
+          &.home
+            margin-top: 0
+          margin-top: 1em
+          font-size: 1.75em
+          .text
+            color: #00d4f1
+          .caret
+            color: #FFFFFF
+
+  .sub-nav
+    ul
+      clear: both;
+      height: 4.05em;
+      background: #02365b
+      margin: 0
+      li
+        color: #00d4f1
+        &:after
+          content: "/"
+          margin-left: .5em
+        &:last-child:after,
+        &:first-child:after
+          content: ''
+        &:first-child
+          padding-left: 0
+          a
+            color: #02365b
+            font-weight: 900
+            padding: .5em .5em .5em 3em
+            background-color: #5cd2ed
+        a
+          color: #00d4f1
+          line-height: 3.5
+          font-size: 1.2em
+          text-transform: uppercase
+          text-decoration: none
+          &:hover
+            color: #FFFFFF
