@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(".slider.mini-banner").slick({infinite:!0,slidesToShow:1,nav:!1,dots:!0,autoplay:!0,autoplaySpeed:2e3}),$(".slider.wide").slick({infinite:!0,slidesToShow:1,nav:!1,dots:!0,autoplay:!0,autoplaySpeed:2e3});
